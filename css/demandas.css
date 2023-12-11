@@ -1,0 +1,237 @@
+.box-formulario {
+  padding-bottom: 30px;
+  color: #00171F;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box-formulario h3 {
+  color: #00171F;
+  font-size: 90px;
+  margin-bottom: 40px;
+  padding-top: 10%;
+  margin-left: 65px;
+}
+
+.box-formulario h1 {
+  color: #00171F;
+  text-align: center;
+  margin: 15px;
+}
+
+.formulario {
+  margin-top: 60px;
+}
+
+.formulario form {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  max-width: 40%;
+  max-height: 40%;
+  margin-bottom: 100px;
+  margin-right: 70px;
+  margin-left: 40px;
+}
+
+.formulario p {
+  color: #00171F;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 80px;
+  text-align: start;
+}
+
+.formulario h2 {
+  color: #00171F;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 80px;
+  text-align: start;
+}
+
+.formulario h3 {
+  /* color:  #00171F; */
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 80px;
+  text-align: start;
+}
+
+#mensagem {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+fieldset {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+label {
+  background: rgb(0, 0, 0, 0);
+  display: flex;
+  color: #fff;
+}
+
+input {
+  background-color: white;
+  border-top-color: rgb(0, 0, 0, 0);
+  border-right-color: rgb(0, 0, 0, 0);
+  border-left-color: rgb(0, 0, 0, 0);
+  border-radius: 8px;
+}
+
+textarea {
+  background-color: white;
+  border-radius: 8px;
+  border: none; 
+}
+
+#nome {
+  width: 100%;
+  padding-top: 20px;
+}
+
+#telefone {
+  width: 100%;
+  padding-top: 20px;
+}
+
+#cidade {
+  width: 100%;
+  padding-top: 20px;
+}
+
+#email {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.demanda {
+  background: rgb(0, 0, 0, 0);
+  padding-top: 30px;
+  align-items: center; 
+  text-align: center; 
+}
+
+.botoes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4DA167;
+  height: 40px;
+  width: 150px;
+  border-radius: 8px;
+  margin: 0 10px; 
+  color: #fff; 
+}
+
+button[type="reset"] {
+  background-color: #4DA167;
+  color: #fff;
+}
+
+.box-form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 300px;
+  background-color: #863429;
+  border-radius: 8px;
+  margin-right: 0;
+  margin-left: 0;
+  margin: 0;
+}
+
+.box-form input,
+.box-form select {
+  padding: 4px 8px;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.demanda textarea {
+  height: 100px;
+  padding: 6px 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+label,
+input,
+textarea {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 640px) {
+  .box-formulario {
+    max-width: 100%;
+    padding-bottom: 30px;
+    color: #00171F;
+  }
+
+  .box-formulario h3 {
+    color: #00171F;
+    font-size: 70px;
+    margin-bottom: 40px;
+    padding-top: 10%;
+    text-align: center;
+  }
+
+  .formulario {
+    margin-top: 60px;
+  }
+
+  .formulario form {
+    float: none; 
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+
+  .formulario p,
+  .formulario h2,
+  .formulario h3 {
+    margin-left: 0; 
+    text-align: center; 
+  }
+
+  .demanda textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 0; 
+  }
+
+  .demanda label{
+    width: 100%;
+  }
+
+  .botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .box-form {
+    max-width: 100%; 
+    margin: 0 auto; 
+  }
+}

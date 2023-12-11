@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Comme&family=IBM+Plex+Sans+Condensed&display=swap');
+
+/*
+font-family: 'Basic', sans-serif;
+font-family: 'Comme', sans-serif;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+*/
+
+* {
+  margin: 0;
+  color: #00171F;
+  font-family: 'Basic', sans-serif;
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.menu {
+  /* background: linear-gradient(0.25turn, white, white, #4DA167 60%); */
+  /* background: linear-gradient(0.25turn, #863429, #064296, #4DA167 80%); */
+  background-color: #863429;
+  /* top: 10px;  */
+  margin-top: 0;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  z-index: 9999;
+  /*  box-shadow: 0px 5px 5px #dbdada;*/
+}
+
+/* .menu img{
+  height: 30px;
+} */
+
+.menu>p {
+  padding-left: 5%;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00171F;
+  /*text-shadow: 1px 1px 5px #616161;*/
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu a:hover {
+  color: #b4b4b4;
+}
+
+.menu:first-child {
+  padding-left: 20%;
+}
+
+
+.sobre {
+  position: relative;
+  background-color: white;
+  height: max-content;
+  padding: 3% 15% 3% 15%;
+  text-align: center;
+  top: 30px;
+  bottom: 30px;
+  opacity: 1;
+  z-index: 1; 
+}
+
+.sobre>h3 {
+  padding: 4% 0 4% 0;
+  color: #1b803b;
+}
+
+.sobre>h1 {
+  text-align: end;
+  font-size: 90px;
+  padding-bottom: 2%;
+}
+
+.curricularizacao>h3 {
+  padding-top: 4%;
+  padding-bottom: 1%;
+  font-size: 15px;
+  color: #1b803b;
+}
+
+.curricularizacao>p {
+  font-size: 13px;
+  color: #222222;
+}
+
+.sobre::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2147782582.jpg?w=740&=st=1687808010~exp=1687808610~hmac=bd6c5acffb6e1f5027e61b76b62012b621782b9412a32b606a46bd424eafba7e');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+  z-index: -1; 
+}
+
+@media only screen and (max-width: 640px) {
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Comme&family=IBM+Plex+Sans+Condensed&display=swap');
+
+* {
+  margin: 0;
+  color: #00171F;
+  font-family: 'Basic', sans-serif;
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.menu {
+  /* background: linear-gradient(0.25turn, white, white, #4DA167 60%); */
+  /* background: linear-gradient(0.25turn, #863429, #064296, #4DA167 80%); */
+  background-color: #863429;
+  margin-top: 0;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  margin-left: 0;
+  z-index: 9999;
+}
+
+.menu>p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #00171F;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu a:hover {
+  color: #b4b4b4;
+}
+
+.menu:first-child {
+  padding-left: 0 !important;
+}
+
+
+.sobre {
+  position: relative;
+  background-color: white;
+  height: max-content;
+  padding: 3% 15% 3% 15%;
+  text-align: center;
+  top: 30px;
+  bottom: 30px;
+  opacity: 1;
+  z-index: 1; 
+}
+
+.sobre>h3 {
+  padding: 4% 0 4% 0;
+  color: #1b803b;
+}
+
+.sobre>h1 {
+  text-align: end;
+  font-size: 90px;
+  padding-bottom: 2%;
+}
+
+.curricularizacao>h3 {
+  padding-top: 4%;
+  padding-bottom: 1%;
+  font-size: 15px;
+  color: #1b803b;
+}
+
+.curricularizacao>p {
+  font-size: 13px;
+  color: #222222;
+}
+
+.sobre::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2147782582.jpg?w=740&=st=1687808010~exp=1687808610~hmac=bd6c5acffb6e1f5027e61b76b62012b621782b9412a32b606a46bd424eafba7e');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+  z-index: -1; 
+}
+  
+}
+
+@media only screen and (max-width: 390px) {
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Comme&family=IBM+Plex+Sans+Condensed&display=swap');
+
+  .menu>p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #00171F;
+  padding: 0;
+}
+  
+}
